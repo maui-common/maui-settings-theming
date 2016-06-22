@@ -6,10 +6,10 @@ set -e
 
 # unHide deprecated window decorations
 function show_deprecated {
-    dpkg-divert --package netrunner-settings-theming --remove --rename --divert /usr/share/netrunner/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
-    dpkg-divert --package netrunner-settings-theming --remove --rename --divert /usr/share/netrunner/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
+    dpkg-divert --package maui-settings-theming --remove --rename --divert /usr/share/default-settings/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
+    dpkg-divert --package maui-settings-theming --remove --rename --divert /usr/share/default-settings/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
     # Show gtkbreeze
-    dpkg-divert --package netrunner-settings-theming --remove --rename --divert /usr/share/netrunner/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
+    dpkg-divert --package maui-settings-theming --remove --rename --divert /usr/share/default-settings/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
 }
 
 case "$1" in

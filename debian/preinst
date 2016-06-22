@@ -2,12 +2,12 @@
 
 # Hide deprecated window decorations
 function hide_deprecated {
-    mkdir -p /usr/share/netrunner/hidden
+    mkdir -p /usr/share/default-settings/hidden
 
-    dpkg-divert --package default-settings-theming --add --rename --divert /usr/share/netrunner/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
-    dpkg-divert --package default-settings-theming --add --rename --divert /usr/share/netrunner/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
+    dpkg-divert --package maui-settings-theming --add --rename --divert /usr/share/default-settings/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
+    dpkg-divert --package maui-settings-theming --add --rename --divert /usr/share/default-settings/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
     # Hide gtkbreeze (We don't want gtk theme to be overwritten)
-    dpkg-divert --package default-settings-theming --add --rename --divert /usr/share/netrunner/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
+    dpkg-divert --package maui-settings-theming --add --rename --divert /usr/share/default-settings/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
 }
 
 # if [ install = "$1" -o upgrade = "$1" ]; then
