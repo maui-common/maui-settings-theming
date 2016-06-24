@@ -142,7 +142,7 @@ toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 fixed=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=netrunner-breeze
+Theme=breeze
 
 [KDE]
 ShowIconsInMenuItems=true
