@@ -105,8 +105,8 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme[$d]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Maui
 BorderSize=Normal
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
