@@ -147,7 +147,7 @@ Theme=breeze
 [KDE]
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
-LookAndFeelPackage=org.kde.netrunner-black-x.desktop
+LookAndFeelPackage=org.kde.maui.desktop
 contrast=4
 widgetStyle=breeze
 SingleClick=false
