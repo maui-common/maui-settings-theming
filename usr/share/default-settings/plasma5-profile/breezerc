@@ -8,3 +8,4 @@ DrawBackgroundGradient=false
 
 [Style]
 AnimationsEnabled=false
+ViewDrawFocusIndicator=false
