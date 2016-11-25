@@ -27,11 +27,11 @@ then
   cp /usr/share/default-settings/dot-gtkrc-2.0-kde4 /root/.gtkrc-2.0
   cp /usr/share/default-settings/dot-gtkrc-2.0-kde4 /root/.gtkrc-2.0-kde4
 fi
-if [ ! -e /root/.config/gtk-3.0/settings.ini ]
-then
-  mkdir -p /root/.config/gtk-3.0
-  cp /usr/share/default-settings/settings.ini /root/.config/gtk-3.0/settings.ini
-fi
+# if [ ! -e /root/.config/gtk-3.0/settings.ini ]
+# then
+#   mkdir -p /root/.config/gtk-3.0
+#   cp /usr/share/default-settings/settings.ini /root/.config/gtk-3.0/settings.ini
+# fi
 
 # Same for users
 

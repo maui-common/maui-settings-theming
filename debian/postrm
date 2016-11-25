@@ -17,7 +17,7 @@ case "$1" in
         #These files may have been created during installation
         rm -f /root/.gtkrc-2.0
         rm -f /root/.gtkrc-2.0-kde4
-        rm -f /root/.config/gtk-3.0/settings.ini
+#         rm -f /root/.config/gtk-3.0/settings.ini
         rm -f /etc/skel/.gtkrc-2.0
         rm -f /etc/skel/.gtkrc-2.0-kde4
         rm -f /etc/skel/.config/gtk-3.0/settings.ini
