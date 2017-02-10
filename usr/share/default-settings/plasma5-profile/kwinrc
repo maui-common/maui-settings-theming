@@ -26,7 +26,7 @@ InitialZoom=1
 [ElectricBorders]
 Bottom=None
 BottomLeft=None
-BottomRight=ShowDesktop
+BottomRight=None
 Left=None
 Right=None
 Top=None
@@ -63,6 +63,10 @@ kwin4_effect_fadeEnabled=true
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
+minimizeallEnabled=true
+
+[Script-minimizeall]
+BorderActivate=3
 
 [TabBox]
 BorderActivate=9
