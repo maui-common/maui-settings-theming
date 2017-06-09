@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=1
+AnimationSpeed=2
 GLColorCorrection=false
 GLCore=false
 GLPlatformInterface=glx
